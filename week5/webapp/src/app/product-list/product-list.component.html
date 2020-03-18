@@ -1,0 +1,31 @@
+<h2>Products</h2>
+<nav>
+  <h4>Categories</h4>
+  <ul>
+    <a *ngFor = "let category of categories" href="/categories/{{category.category}}">
+      <li [class.selected]="category.category===selectedCategory.category">
+        {{category.category}}
+      </li>
+    </a>
+  </ul>
+</nav>
+
+<div *ngFor="let product of products" [style.display] = "(product.category.indexOf(selectedCategory.category)!=-1)||selectedCategory.category=='all' ? 'inline' : 'none'">
+  <h3>
+    <a [title]="product.name + ' details'" [href]="product.links" target="_blank">
+      <p class='name'>{{ product.name }}</p>
+    </a>
+    <p class='prices'>{{product.price}} <br><br> rating: {{product.rating}}</p>
+  </h3>
+
+  <img [src]="product.image" alt="phone_image">
+ 
+  <p *ngIf="product.description" class="descriptions">
+    Description: {{ product.description }}
+  </p>
+
+  <button (onclick)="share()">
+    Share
+  </button>
+
+</div>

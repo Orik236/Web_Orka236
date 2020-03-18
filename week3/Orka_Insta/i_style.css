@@ -1,0 +1,312 @@
+*{
+    margin:0;
+    border:0;
+    padding:0;
+    vertical-align: baseline;
+    font:inherit;
+}
+body, textarea, button, input{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+body{
+    height: 100%;
+    overflow-y: scroll;
+    display: block;
+}
+#root{
+    z-index: 0;
+    height: 100%;
+}
+#root, div, footer, header, main, nav, section{
+    position: relative;
+    border: 0 solid #000;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+}
+#main-section{
+    display:flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: hidden;
+    min-height: 100%;
+}
+.main-page, footer{
+    background-color: rgba(250, 250, 250, 1);
+}
+.main-page{
+    flex-grow: 1;
+    order: 4;
+}
+#page-block{
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: center;
+    margin: 30px auto 0;
+    max-width: 935px;
+    padding-bottom: 44px;
+    width: 100%;
+}
+#gallery{
+    align-self: center;
+    background-image: url(https://www.instagram.com/static/images/homepage/home-phones.png/43cc71bb1b43.png);
+    background-position: 0 0;
+    background-size: 454px 618px;
+    flex-basis: 454px;
+    height: 618px;
+    margin-left: -35px;
+    margin-right: -15px;
+}
+#images{
+    margin: 99px 0 0 151px;
+    position: relative;
+}
+#image{
+    height: 427px;
+    left:0;
+    position:absolute;
+    top:0;
+    width: 240px;
+    z-index: 2;
+}
+#sign-block{
+    color: #262626;
+    flex-grow: 1;
+    justify-content: center;
+    margin-top: 12px;
+    max-width: 350px;
+    width: 100%;
+}
+.block{
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+#logo{
+    background-position: -98px 0;
+    height: 51px;
+    width: 175px;
+    background-image: url(https://www.instagram.com/static/bundles/es6/sprite_core_b20f2a3cd7e4.png/b20f2a3cd7e4.png);
+    display: block;
+    overflow: hidden;
+    text-indent: 110%;
+    white-space: nowrap;
+    margin: 22px auto 12px;
+}
+#middle-page{
+    margin-bottom: 20px;
+}
+#log-in{
+    display: flex;
+    flex-direction: column;
+}
+#log-in h2{
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 17px;
+    margin: 0 40px 10px;
+    color: #999;
+    text-align: center;
+}
+.button-block{
+    margin: 8px 40px;
+    flex:0 0 auto;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+.button_{
+    border: 1px solid transparent;
+    background-color: rgba(56, 151, 240, 1);
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    font-weight: 600;
+    padding: 5px 9px;
+    text-align: center;
+    text-transform: inherit;
+    text-overflow: ellipsis;
+    user-select: none;
+    width: auto;
+}
+#facebook-icon{
+    background-repeat: none;
+    background-position: -264px -319px;
+    height: 16px;
+    width: 16px;
+    background-image: url(https://www.instagram.com/static/bundles/es6/sprite_core_b20f2a3cd7e4.png/b20f2a3cd7e4.png);
+    top: 2px;
+    display: inline-block;
+    margin-right: 8px;
+    position: relative;
+}
+#or-block{
+    flex-direction: row;
+    margin: 10px 40px 18px;
+}
+#left-line, #right-line{
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: rgba(219, 219, 219, 1);
+    height: 1px;
+    position: relative;
+    top: 0.45em;
+}
+#or{
+    color: rgba(153, 153, 153, 1);
+    flex-grow: 0;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0 18px;
+    text-transform: uppercase;
+}
+.data{
+    font-size:16px;
+    flex: 1 0 auto;
+    overflow: hidden;
+    padding: 9px 0 7px 8px;
+    text-overflow: ellipsis;
+    background-color: #fafafa;
+}
+.default-input{
+    color: #999;
+    font-size: 12px;
+    height: 36px;
+    left: 8px;
+    position: absolute;
+    transform-origin: left;
+}
+.label_{
+    display: flex;
+    height: 36px;
+    flex: 1 0 0;
+    position: relative;
+}
+.input_{
+    box-sizing: border-box;
+    color: #262626;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    border: 1px solid #efefef;
+    background-color: #fafafa;
+}
+.end-label{
+    align-items: center;
+    flex: 0 0 auto;
+    flex-direction: row;
+    height: 100%;
+    padding-right: 8px;
+    vertical-align: middle;
+}
+#end-registration{
+    color: #999;
+    margin: 10px 60px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+#end-registration a{
+    color: #999;
+    font-weight: 600;
+    text-decoration: none;
+}
+#ask{
+    color: #262626;
+    font-size: 14px;
+    margin: 15px;
+    text-align: center;
+}
+#ask a{
+    text-decoration: none;
+}
+#apps{
+    align-items: stretch;
+    border: 0 solid #000;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+#install-app{
+    color: #262626;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 10px 20px;
+    text-align: center;
+}
+#appleAndGoogle{
+    flex-direction: row;
+    margin: 10px 0;
+    border: 0 solid #000;
+    display: flex;
+    position: relative;
+}
+.app-phone{
+    color: rgba(0, 53, 105, 1);
+    text-decoration: none;
+    margin-left: 8px;
+}
+.app-icon{
+    height: 40px;
+}
+footer{
+    order:5;
+    padding: 0 20px;
+}
+ul{
+    margin-right: 16px;
+    margin-bottom: 3px;
+    flex-grow: 1;
+    list-style: none;
+}
+li{
+    display: inline-block;
+    margin-bottom: 7px;
+    margin-right: 16px;
+}
+.list-link{
+    color: rgba(0, 53, 105, 1);
+    text-decoration: none;
+}
+#languages{
+    color: rgba(0, 53, 105, 1);
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    position: relative;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+#languages select{
+    cursor: pointer;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    text-rendering: auto;
+    text-align: start;
+    font: 400 13px Arial;
+    border: 1px solid rgb(169, 169, 169);
+
+}
+#languages select:not{
+    overflow: visible !important;
+}
+option{
+    font-weight: normal;
+    display: block;
+    padding: 0 2px 1px;
+}

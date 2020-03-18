@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Tahome, sans-serif;
+}
+#head-background{
+    background-color:  rgb(86, 130, 163);
+    height: 226px;
+}
+#logo{
+    display:inline-block;
+    line-height: 30px;
+    padding:23px 15px 22px;
+    text-decoration: none;
+}
+#icon-log{
+    display:inline-block;
+    margin-right: 14px;
+    background-image: url(https://web.telegram.org/img/icons/General_2x.png);
+    background-size: 40px 948px;
+    background-position: -5px -10px;
+    width: 30px;
+    height: 30px;
+}
+#icon-title {
+	display: inline-block;
+	margin-top: 1px;
+	width: 62px;
+	height: 14px;
+	vertical-align: middle;
+	background-image: url(https://web.telegram.org/img/Telegram.svg);
+}
+#next-btn{
+    line-height:20px;
+    padding: 27px 15px 28px;
+    display: block;
+    float: right;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(86, 130, 163);
+    border: rgb(86, 130, 163);
+}
+#sign-block{
+    margin-top:-131px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 404px;
+}
+body{
+    background-color: rgb(231, 235, 240);
+    height:100%;
+}
+#sign-header{
+    height:75px;
+    font-size:13px;
+}
+#next-btn p{
+    display:inline;
+    font-weight: 700;
+}
+#next-btn i{
+    background-image: url(https://web.telegram.org/img/icons/General_2x.png);
+    background-size: 40px 948px;
+    width: 7px;
+    height: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px;
+    background-position: -18px -50px;
+    margin-bottom: 1px;
+}
+#form{
+    background-color: white;
+    padding: 44px 65px;
+    border: 0px solid initial;
+    border-radius: 2px;
+    box-shadow: rgba(97, 127, 152, 0.2) 0px 1px 1px 0px,
+    rgba(97, 127, 152, 0.1) 1px 0px 0px 0px,
+    rgba(97, 127, 152, 0.1) -1px 0px 0px 0px;
+}
+
+form h1{
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(34, 34, 34);
+    margin-bottom: 20px;
+    line-height: 16.5px;
+}
+
+form p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 160%;
+    color: rgb(153, 153, 153);
+    margin: 15px 0 30px;
+}
+#country-input{
+    height: 50px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    margin-bottom: 22px;
+}
+h3{
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    font-weight: 400;
+}
+h4{
+    color:rgb(0,0,0);
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+#code-input{
+    display: inline-block;
+    width: 50px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    margin-bottom: 22px;
+}
+#phone-input{
+    display:block;
+    float:right;
+    height: 50px;
+    width: 200px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    margin-bottom: 22px;
+}
+#phone-input label{
+    color: rgb(153, 153, 153);
+    font-size: 13px;
+    position:relative;
+    top:20px;
+}
+#phone-input input{
+    border-style: none;
+}
+footer{
+    margin-bottom: 25px;
+    height: 42px;
+    line-height: 16px;
+    color: rgb(132, 162, 188);
+    font-size: 13px;
+    text-align: center;
+    font-weight: 400;
+}
+footer p{
+    margin-bottom: 10px;
+}
+footer h5{
+    font-weight: 800;
+    text-decoration: none;
+    color: rgb(132, 162, 188);
+}
+footer h5:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

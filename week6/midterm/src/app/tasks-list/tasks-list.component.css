@@ -1,0 +1,15 @@
+a{
+    text-decoration: none;
+}
+li:hover{
+    transform: translateX(1em);
+}
+li{
+    background-color: rgb(199, 215, 236);
+    width: 150px;
+    max-width: 150px;
+    padding: 5px;
+    border-radius: 8px;
+    transition: all 0.5s ease;
+    list-style-type: none;
+}
