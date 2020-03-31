@@ -2,50 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb3504bd-7edc-4fd7-96a1-fb15fc7c6d1c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/FirstL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FirstL.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems1/A.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems1/B.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems1/C.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems1/D.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems1/E.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems2/A.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems2/B.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems2/C.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems2/D.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems2/E.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems3/A.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems3/B.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems3/C.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems3/G.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems3/H.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems3/I.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems3/J.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems3/K.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems3/M.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems4/A.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems4/B.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems4/C.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems4/D.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems4/E.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems5/A.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems5/B.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems5/C.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems5/D.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems5/E.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems5/F.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems5/G.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems6/A.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems6/B.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems6/C.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Project/blog/templates/blog/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Project/blog/templates/blog/post_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Project/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Project/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Project/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Project/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hackerrank/B.py" beforeDir="false" afterPath="$PROJECT_DIR$/hackerrank/B.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hackerrank/C.py" beforeDir="false" afterPath="$PROJECT_DIR$/hackerrank/C.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hackerrank/D.py" beforeDir="false" afterPath="$PROJECT_DIR$/hackerrank/D.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,13 +184,33 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="360" y="71" key="#Custom_Plugin_Repositories/0.0.1536.824@0.0.1536.824" timestamp="1584463766308" />
+    <state x="548" y="154" key="FileChooserDialogImpl" timestamp="1585043451082">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585043451082" />
+    <state width="1364" height="194" key="GridCell.Tab.0.bottom" timestamp="1584543810716">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1364" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584543810716" />
+    <state width="1364" height="194" key="GridCell.Tab.0.center" timestamp="1584543810716">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1364" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584543810716" />
+    <state width="1364" height="194" key="GridCell.Tab.0.left" timestamp="1584543810716">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1364" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584543810716" />
+    <state width="1364" height="194" key="GridCell.Tab.0.right" timestamp="1584543810716">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1364" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584543810716" />
     <state x="277" y="55" key="SettingsEditor" timestamp="1584463901219">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584463901219" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1584541588733">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585043409948">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584541588733" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585043409948" />
   </component>
 </project>
